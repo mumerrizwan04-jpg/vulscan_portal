@@ -1,0 +1,7 @@
+{
+  "id": "snippet_example",
+  "title": "Example snippet: vulnerable sample",
+  "lang": "php",
+  "code": "<?php\\n// Example vulnerable PHP\\necho $_GET['name'];\\n// eval('...') would be flagged\\n?>",
+  "created": "2025-11-21T00:00:00Z"
+}
